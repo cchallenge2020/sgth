@@ -1,3 +1,4 @@
+console.log("Hello World");
 var cyobj = document.querySelector('.current-year');
 const d = new Date();
 var year = d.getFullYear();
