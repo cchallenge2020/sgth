@@ -26,8 +26,16 @@ navbtn.addEventListener('click', ()=>{
 const postContainer = document.getElementById('main');
 console.log(postContainer);
 
-const posts = postContainer.querySelectorAll('.seperator');
+const posts = postContainer.querySelectorAll('img');
 console.log(posts);
+
+var mSelector = document.querySelector('#mSelector');
+posts.forEach(img=>{
+var imgNode = document.createElement('img');
+    imgNode.src = img.src;
+    imgNode.alt = "post image";
+    mSelector.appendChild(imgNode);
+});
 
 
 // end
