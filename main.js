@@ -22,7 +22,14 @@ navbtn.addEventListener('click', ()=>{
         navlist.style.display='none';
     }
 })
+// selecting posts
+const postContainer = document.getElementById('main')
 
+const posts = postContainer.querySelectorAll('.seperator');
+console.log(posts);
+
+
+// end
 
 
 const content = document.querySelector('#main');
