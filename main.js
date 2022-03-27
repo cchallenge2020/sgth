@@ -23,7 +23,8 @@ navbtn.addEventListener('click', ()=>{
     }
 })
 // selecting posts
-const postContainer = document.getElementById('main')
+const postContainer = document.getElementById('main');
+console.log(postContainer);
 
 const posts = postContainer.querySelectorAll('.seperator');
 console.log(posts);
@@ -33,6 +34,7 @@ console.log(posts);
 
 
 const content = document.querySelector('#main');
+console.log(content);
 
 
 
