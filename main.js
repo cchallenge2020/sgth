@@ -11,14 +11,15 @@ console.log(navbtn);
 var navlist = document.querySelector('.m-nav-list');
 console.log(navbtn);
 navbtn.addEventListener('click', ()=>{
+    console.log("clicked on button");
     if(isClosed){
         isClosed = false;
-        navbtn.classList.remove("cross-animation");
-        navlist.style.display= 'none';
+        navbtn.classList.add("cross-animation");
+        navlist.style.display= 'block';
       }else{
         isClosed = true;
-        navbtn.classList.add("cross-animation");
-        navlist.style.display='block';
+        navbtn.classList.remove("cross-animation");
+        navlist.style.display='none';
     }
 })
 
