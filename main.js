@@ -1,15 +1,15 @@
-console.log("Hello World");
+// console.log("Hello World");
 var cyobj = document.querySelector('.current-year');
 const d = new Date();
 var year = d.getFullYear();
 cyobj.innerHTML = year;
-console.log(cyobj);
+// console.log(cyobj);
 
 var isClosed = true; 
 var navbtn = document.querySelector('.m-hamburger');
-console.log(navbtn);
+// console.log(navbtn);
 var navlist = document.querySelector('.m-nav-list');
-console.log(navbtn);
+// console.log(navbtn);
 navbtn.addEventListener('click', ()=>{
     console.log("clicked on button");
     if(isClosed){
@@ -24,10 +24,10 @@ navbtn.addEventListener('click', ()=>{
 })
 // selecting posts
 const postContainer = document.getElementById('main');
-console.log(postContainer);
+// console.log(postContainer);
 
 const posts = postContainer.querySelectorAll('img');
-console.log(posts);
+// console.log(posts);
 
 var mSelector = document.querySelector('#mSelector');
 posts.forEach(img=>{
@@ -42,7 +42,7 @@ var imgNode = document.createElement('img');
 
 
 const content = document.querySelector('#main');
-console.log(content);
+// console.log(content);
 
 
 
