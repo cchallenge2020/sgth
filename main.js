@@ -34,6 +34,7 @@ posts.forEach(img=>{
 var imgNode = document.createElement('img');
     imgNode.src = img.src;
     imgNode.alt = "post image";
+    imgNode.loading = "lazy";
     mSelector.appendChild(imgNode);
 });
 
